@@ -1,0 +1,2 @@
+file_name, ext, texture_width, texture_height, file_width, file_height
+MAKE SURE TO INPUT FULL ATTRIBUTE
