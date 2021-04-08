@@ -1,0 +1,2 @@
+truck1	png	88	64	88	128
+truck2	png	88	64	88	128
