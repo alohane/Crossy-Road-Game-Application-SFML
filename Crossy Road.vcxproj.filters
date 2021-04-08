@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Framework">
+      <UniqueIdentifier>{025d3585-b202-4900-bab2-a2a395fbd33e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Framework\Util">
+      <UniqueIdentifier>{ff31f579-09be-4ec3-8aab-c72db93a42ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Framework\State">
+      <UniqueIdentifier>{cf3c39f2-3fb3-4ce5-9c24-1600a8298779}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Framework\AssetManager">
+      <UniqueIdentifier>{f4f5bdfe-887c-4b32-97f1-ed0c69d7b6bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game">
+      <UniqueIdentifier>{e3541f4d-2a7d-4726-8f00-3cc00948d359}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\State">
+      <UniqueIdentifier>{ff2703ce-67ea-4c59-ab69-f8d76449ca1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Framework\GUI">
+      <UniqueIdentifier>{f778e61b-6bd5-4fec-84c7-4be3988bfa38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Entity">
+      <UniqueIdentifier>{b8c14582-f6cb-45af-a0b3-a390b2da5770}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Framework\State\state_base.cpp">
+      <Filter>Source Files\Framework\State</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Util\random.cpp">
+      <Filter>Source Files\Framework\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\State\state_playing.cpp">
+      <Filter>Source Files\Game\State</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\State\state_main_menu.cpp">
+      <Filter>Source Files\Game\State</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\GUI\Widget.cpp">
+      <Filter>Source Files\Framework\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\GUI\Button.cpp">
+      <Filter>Source Files\Framework\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\GUI\StackMenu.cpp">
+      <Filter>Source Files\Framework\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\GUI\TextBox.cpp">
+      <Filter>Source Files\Framework\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Entity\Road.cpp">
+      <Filter>Source Files\Game\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Entity\Player.cpp">
+      <Filter>Source Files\Game\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\AssetManager\asset.cpp">
+      <Filter>Source Files\Framework\AssetManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Collidable.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\State\state_pause.cpp">
+      <Filter>Source Files\Game\State</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\State\state_load.cpp">
+      <Filter>Source Files\Game\State</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Util\animation.cpp">
+      <Filter>Source Files\Framework\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Util\tilemap.cpp">
+      <Filter>Source Files\Framework\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Game.cpp">
+      <Filter>Source Files\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\World.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\SaveLevel.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Background.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\State\state_save.cpp">
+      <Filter>Source Files\Game\State</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\State\state_game_over.cpp">
+      <Filter>Source Files\Game\State</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Entity\TrafficLight.cpp">
+      <Filter>Source Files\Game\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Game\Entity\Obstacle.cpp">
+      <Filter>Source Files\Game\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\AssetManager\playlist.cpp">
+      <Filter>Source Files\Framework\AssetManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\Util\txr_lookup.cpp">
+      <Filter>Source Files\Framework\Util</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Framework\State\state_base.h">
+      <Filter>Source Files\Framework\State</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Util\random.h">
+      <Filter>Source Files\Framework\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Util\no_copy.h">
+      <Filter>Source Files\Framework\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\State\state_playing.h">
+      <Filter>Source Files\Game\State</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\State\state_main_menu.h">
+      <Filter>Source Files\Game\State</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\GUI\Widget.h">
+      <Filter>Source Files\Framework\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\GUI\Button.h">
+      <Filter>Source Files\Framework\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\GUI\StackMenu.h">
+      <Filter>Source Files\Framework\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\GUI\TextBox.h">
+      <Filter>Source Files\Framework\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Entity\Player.h">
+      <Filter>Source Files\Game\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Entity\Road.h">
+      <Filter>Source Files\Game\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\AssetManager\asset_manager.h">
+      <Filter>Source Files\Framework\AssetManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\AssetManager\asset.h">
+      <Filter>Source Files\Framework\AssetManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Collidable.h">
+      <Filter>Source Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\State\state_pause.h">
+      <Filter>Source Files\Game\State</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\State\state_load.h">
+      <Filter>Source Files\Game\State</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Util\animation.h">
+      <Filter>Source Files\Framework\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Util\tilemap.h">
+      <Filter>Source Files\Framework\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="PCH.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Game.h">
+      <Filter>Source Files\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\World.h">
+      <Filter>Source Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\SaveLevel.h">
+      <Filter>Source Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Background.h">
+      <Filter>Source Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\State\state_save.h">
+      <Filter>Source Files\Game\State</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\State\state_game_over.h">
+      <Filter>Source Files\Game\State</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Entity\TrafficLight.h">
+      <Filter>Source Files\Game\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Game\Entity\Obstacle.h">
+      <Filter>Source Files\Game\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\AssetManager\playlist.h">
+      <Filter>Source Files\Framework\AssetManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\Util\txr_lookup.h">
+      <Filter>Source Files\Framework\Util</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
